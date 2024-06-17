@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nmap Scan Results</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nmap Scan Results</h1>
+        <table>
+            <% for (const line of scanResults) { %>
+                <tr><td><%= line %></td></tr>
+            <% } %>
+        </table>
+
+    </div>
+</body>
+</html>
